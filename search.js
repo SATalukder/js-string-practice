@@ -16,3 +16,10 @@ console.log(lyrics.indexOf('kala'));
 //startsWith
 
 console.log(lyrics.startsWith('Tumi'));
+
+//endWith
+
+const fileName = 'myBioData.pdf'
+const otherFile = 'myPic.png'
+
+fileName.endsWith('.pdf');
