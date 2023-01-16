@@ -19,7 +19,17 @@ else {
 
 const number = 2.4568;
 const fullNumber = Math.round(number);
-console.log(fullNumber);
+// console.log(fullNumber);
 
 const result1 = Math.ceil(number);
-console.log(result1);
+// console.log(result1);
+const result2 = Math.floor(number);
+// console.log(result2);
+
+//Random
+// console.log(Math.random());
+
+for (let i = 0; i < 20; i++) {
+
+    console.log(Math.round(Math.random() * 6));
+}
