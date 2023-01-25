@@ -7,7 +7,7 @@ const num2 = 45;
 
 const gap = Math.abs(num1 - num2);
 
-// console.log(gap);
+console.log(gap);
 
 if (gap < 5) {
     console.log('You guys can be friends');
@@ -17,9 +17,9 @@ else {
 }
 
 
-const number = 2.4568;
+const number = 2.568;
 const fullNumber = Math.round(number);
-// console.log(fullNumber);
+console.log(fullNumber);
 
 const result1 = Math.ceil(number);
 // console.log(result1);
@@ -31,5 +31,5 @@ const result2 = Math.floor(number);
 
 for (let i = 0; i < 20; i++) {
 
-    console.log(Math.round(Math.random() * 6));
+    // console.log(Math.round(Math.random() * 6));
 }

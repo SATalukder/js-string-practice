@@ -11,15 +11,15 @@ const doesExist = lyricslowercase.includes(searchString.toLowerCase());
 
 //indexOf
 
-console.log(lyrics.indexOf('kala'));
+// console.log(lyrics.indexOf('kala'));
 
 //startsWith
 
-console.log(lyrics.startsWith('Tumi'));
+// console.log(lyrics.startsWith('Tumi'));
 
-//endWith
+//endsWith
 
 const fileName = 'myBioData.pdf'
 const otherFile = 'myPic.png'
 
-fileName.endsWith('.pdf');
+console.log(fileName.endsWith('.pdf'));
